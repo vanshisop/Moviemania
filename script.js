@@ -1,5 +1,4 @@
 movies = [
-    let popularMovies = [
     "Inception",
     "Interstellar",
     "The Dark Knight Rises",
