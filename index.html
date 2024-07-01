@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Margarine&family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Margarine&family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <title>Movie Mania</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>MOVIE-MANIA</h1>
+   
+    </header>
+    <div class="figureANDtext">
+        <p class="movie-guessertext"></p>
+        <div class="Score-Time">
+            <div class="score">
+                <p >SCORE</p>
+                <p id="score-count">0</p>
+            </div>
+            <div class="time">
+                <p>TIME REMAINING</p>
+                <p id="ExactTime"></p>
+            </div>
+        </div>
+        <div class="hangman" >
+            <div class="cut"><p id="hm1">H</p></div>
+            <div class="cut"><p id="hm2">A</p></div>
+            <div class="cut"><p id="hm3">N</p></div>
+            <div class="cut"><p id="hm4">G</p></div>
+            <div class="cut"><p id="hm5">M</p></div>
+            <div class="cut"><p id="hm6">A</p></div>
+            <div class="cut"><p id="hm7">N</p></div>
+        </div>
+        <div class="big-arena">
+            <div class="arena">
+            </div>
+            <div class="small-arena">
+        </div>
+        </div>
+    </div>
+    <div class="writer">
+        <div class="keyboard">
+            Guess a letter....
+            <div class="row1">
+                <button id="Q" class="keyboard-but">Q</button>
+                <button id="W" class="keyboard-but">W</button>
+                <button id="E" class="keyboard-but">E</button>
+                <button id="R" class="keyboard-but">R</button>
+                <button id="T" class="keyboard-but">T</button>
+                <button id="Y" class="keyboard-but">Y</button>
+                <button id="U" class="keyboard-but">U</button>
+                <button id="I" class="keyboard-but">I</button>
+                <button id="O" class="keyboard-but">O</button>
+                <button id="P" class="keyboard-but">P</button>
+            </div>
+            <div class="row2">
+                <button id="A" class="keyboard-but">A</button>
+                <button id="S" class="keyboard-but">S</button>
+                <button id="D" class="keyboard-but">D</button>
+                <button id="F" class="keyboard-but">F</button>
+                <button id="G" class="keyboard-but">G</button>
+                <button id="H" class="keyboard-but">H</button>
+                <button id="J" class="keyboard-but">J</button>
+                <button id="K" class="keyboard-but">K</button>
+                <button id="L" class="keyboard-but">L</button>
+            </div>
+            <div class="row3">
+                
+                <button id="Z" class="keyboard-but">Z</button>
+                <button id="X" class="keyboard-but">X</button>
+                <button id="C" class="keyboard-but">C</button>
+                <button id="V" class="keyboard-but">V</button>
+                <button id="B" class="keyboard-but">B</button>
+                <button id="N" class="keyboard-but">N</button>
+                <button id="M" class="keyboard-but">M</button>
+                
+            </div>
+        </div>
+        <div class="directanswer">
+            <p>Entire answer!!</p>
+            <input type="text" class="answersubmit">
+            <button type="submit" class="submitans" onclick="submitButton()"><b>SUBMIT</b></button>
+        </div>
+    </div>  
+    <script src="script.js"></script>
+</body>
+</html>
