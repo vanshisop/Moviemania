@@ -116,6 +116,7 @@ let timer = 0;
 let duration = 150;
 let start = countdownTimer(duration);
 console.log(movies[randomNumber]);
+console.log(movies);
 movie_select = movies[randomNumber].toUpperCase();
 console.log(movie_select);
 let audio;
