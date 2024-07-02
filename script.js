@@ -1,4 +1,4 @@
-const movies = [
+let movies = [
     "The Godfather",
     "Pulp Fiction",
     "Forrest Gump",
