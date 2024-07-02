@@ -55,7 +55,7 @@ movies = [
     "Amadeus"
 ];
 
-]
+
 
 let max=27;
 let randomNumber = Math.floor(Math.random() * (max - 0 + 1)) + 0;
