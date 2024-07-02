@@ -55,7 +55,7 @@ movies = [
 
 
 
-let max=74;
+let max=50;
 let randomNumber = Math.floor(Math.random() * (max - 0 + 1)) + 0;
 let count=0;
 let masterCount =0;
