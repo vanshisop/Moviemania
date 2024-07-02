@@ -351,6 +351,8 @@ function submitButton(){
         document.querySelector('.answersubmit').value = '';
         audio = new Audio('mainwin.wav')
         audio.play();
+        clearInterval(start);
+        start = countdownTimer(20)
             // Clear the input field
     }
     else{
