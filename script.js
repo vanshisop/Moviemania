@@ -28,7 +28,6 @@ movies = [
     "Get Out",
     "A Star Is Born",
     "The Irishman",
-    "1917",
     "Parasite",
     "Joker",
     "Argo",
@@ -43,7 +42,6 @@ movies = [
     "Moneyball",
     "The Artist",
     "Up",
-    "District 9",
     "Slumdog Millionaire",
     "No Country for Old Men",
     "The Departed",
@@ -57,7 +55,7 @@ movies = [
 
 
 
-let max=27;
+let max=74;
 let randomNumber = Math.floor(Math.random() * (max - 0 + 1)) + 0;
 let count=0;
 let masterCount =0;
